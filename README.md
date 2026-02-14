@@ -25,6 +25,6 @@ The system is designed to handle interconnected, unique data relationships, incl
 - schema.sql (DDl): It builds the structure, defines primary/foreign keys, and sets up ON DELETE CASCADE rules.
 - seed_data.sql (DML): Contains 20 realistic entries per table to simulate a live production environment.
 
-### 3. Testing & Validation
+### 3. Testing & Validation Phase
 - Unit Tests: Individual table validation.
 - Integration Tests: Complex SQL-queries involving multiple JOIN statements to verify the triple-relationship logic and data retrieval accuracy.
